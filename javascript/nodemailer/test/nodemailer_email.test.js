@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 const expect = chai.expect;
 
 describe('nodemailer', () => {
-    it('can send email using sample code from documentation', done => {
+    xit('can send email using sample code from documentation', done => {
         // Use at least Nodemailer v4.1.0
 
         // Generate SMTP service account from ethereal.email
